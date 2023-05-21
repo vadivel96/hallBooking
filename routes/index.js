@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var mysql=require('mysql2');
 require('dotenv').config();
+require('lru-cache');
 
 const db=mysql.createConnection({
   host: process.env.MYSQL_HOST,
