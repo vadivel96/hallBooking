@@ -5,9 +5,9 @@ require('dotenv').config();
 
 
 const db=mysql.createConnection({
-  host: "127.0.0.1",
-  user: "root",
-  password: "Vl632479!!",
+  host: '127.0.0.1',
+  user: 'root',
+  password: 'Vl632479!!',
   database: 'hallBooking',
   
 
